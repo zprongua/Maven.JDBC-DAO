@@ -8,8 +8,8 @@ import java.util.List;
 
 public class JDBC implements JDBCDAO {
     public static final String URL = "jdbc:mysql://localhost:3306/JDBCDAO?useSSL=false";
-    public static final String USER = "zprongua";
-    public static final String PASS = "ritter";
+    public static final String USER;
+    public static final String PASS;
 
     public static void main(String[] args) throws SQLException {
         getConnection();
